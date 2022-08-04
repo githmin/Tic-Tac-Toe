@@ -33,9 +33,9 @@
     border-left: 3px solid white;
 }
 
-.one , .two, .three , .four , .five , .six ,.seven , .eight ,.nine{
+/* .one , .two, .three , .four , .five , .six ,.seven , .eight ,.nine{
     padding-left: 35px;
-}
+} */
 
 p{
     font-family: 'Pacifico', cursive;
@@ -63,4 +63,10 @@ h1{
     align-items: center;
     justify-content: center;  
     font-family: 'Audiowide', cursive;
+}
+
+button{
+    height: 99px;
+    width: 99px;
+    /* border: none; */
 }
