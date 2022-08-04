@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+*{
+    background-color: #0F172A;
+    color: white;
+    border-radius: 5px;
+}
+
+.temp-grid{
+    width: 300px;
+    height: 300px;
+    /* border: 1px dotted red; */
+}
+.grid{
+    display: grid;
+    /* border: 1px solid black; */
+    grid-template:  repeat(3, 100px) / repeat(3, 1fr);
+}
+
+.grid-item-one , .grid-item-four , .grid-item-seven{
+    border-right: 3px solid white;
+}
+
+.grid-item-one , .grid-item-two , .grid-item-three{
+    border-bottom: 3px solid white;
+}
+
+.grid-item-four , .grid-item-five , .grid-item-six{
+    border-bottom: 3px solid white;
+}
+
+.grid-item-three , .grid-item-six , .grid-item-nine{
+    border-left: 3px solid white;
+}
+
+.one , .two, .three , .four , .five , .six ,.seven , .eight ,.nine{
+    padding-left: 35px;
+}
+
+p{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+h1{
+    font-family: 'Audiowide', cursive;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.main-container{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.player{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    font-family: 'Audiowide', cursive;
+}
