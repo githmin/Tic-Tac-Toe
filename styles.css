@@ -69,4 +69,21 @@ button{
     border-radius: 1px;
     font-family: 'Pacifico', cursive;
     font-size: 30px;
+    cursor: pointer;
 }
+
+.reset-grid{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 2px 12px;
+    cursor: pointer;
+}
+

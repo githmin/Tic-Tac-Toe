@@ -80,7 +80,7 @@ function winnerCalc(){
 }
 
 
-//Displaying the winner under the gird
+//Displaying the winner under the display
 function updateWinnerDisplay(){
     if (winner === "X" ) {
         document.getElementById("player-display").innerHTML = "Player X wins!"
