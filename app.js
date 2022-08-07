@@ -91,9 +91,9 @@ function updateWinnerDisplay(){
 
 
 //reset game
-let rstbtn = document.getElementById("reset-btn");
-if(rstbtn.addEventListener){
-rstbtn.addEventListener('click', function(){
+let resetBtn = document.getElementById("reset-btn");
+if(resetBtn.addEventListener){
+resetBtn.addEventListener('click', function(){
     console.log("reset!");
     document.getElementById("one").innerHTML = "";
     document.getElementById("two").innerHTML = "";
@@ -104,6 +104,6 @@ rstbtn.addEventListener('click', function(){
     document.getElementById("seven").innerHTML = "";
     document.getElementById("eight").innerHTML = "";
     document.getElementById("nine").innerHTML = "";
-    winner = ""
+    winner = "";
 });
 }
