@@ -88,3 +88,22 @@ function updateWinnerDisplay(){
         document.getElementById("player-display").innerHTML = "Player O wins!"
     }
 }
+
+
+//reset game
+let rstbtn = document.getElementById("reset-btn");
+if(rstbtn.addEventListener){
+rstbtn.addEventListener('click', function(){
+    console.log("reset!");
+    document.getElementById("one").innerHTML = "";
+    document.getElementById("two").innerHTML = "";
+    document.getElementById("three").innerHTML = "";
+    document.getElementById("four").innerHTML = "";
+    document.getElementById("five").innerHTML = "";
+    document.getElementById("six").innerHTML = "";
+    document.getElementById("seven").innerHTML = "";
+    document.getElementById("eight").innerHTML = "";
+    document.getElementById("nine").innerHTML = "";
+    winner = ""
+});
+}
