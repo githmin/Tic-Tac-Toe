@@ -65,7 +65,8 @@ h1{
 button{
     height: 99px;
     width: 99px;
-    /* border: none; */
+    border: none;
+    border-radius: 1px;
     font-family: 'Pacifico', cursive;
     font-size: 30px;
 }
