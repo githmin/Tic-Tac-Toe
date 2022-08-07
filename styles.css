@@ -87,3 +87,10 @@ p{
     cursor: pointer;
 }
 
+.footer-text{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+}
